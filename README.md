@@ -11,6 +11,8 @@ Some of the pre-installed software includes:
 * MySQL
 * ...
 
+Another advantage in addition to not having to install the stack, is that you can edit files in your local filesystem, save an see the changes in the web site in the virtual machine (vm). This means you can use your favorite text editor in your host OS (e.g. vscode) because the filesystem in the (guest) vm is "mapped" to filesystem on your machine (MacBook with MacOS in my case) 
+
 Full list and versions https://laravel.com/docs/5.8/homestead
 
 hellohs in my setup on MacOS uses virtualbox.
