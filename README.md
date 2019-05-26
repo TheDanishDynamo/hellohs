@@ -1,6 +1,8 @@
 # hellohs (Hello Homestead)
 
-hellohs is a sample project that uses Homestead to run a simple php project in a popular stack, some of the pre-installed software includes:
+hellohs is a sample project that uses Homestead to run a simple php project in a popular stack in a virtual machine, which saves your time installing all the dependencies for e.g. a laravel project. The laravel/homestead stack/environment is perfect for laravel development, as well as plain php.
+
+Some of the pre-installed software includes:
 
 * Ubuntu
 * Git
@@ -32,7 +34,7 @@ the /etc/hosts has a mapping from 192.168.10.10 to hellohs.local, so that you ca
 Also, inside the vm the /etc/hosts has changed the mapping of localhost to 
 
 ```
-0.0.0.0.0   localhost
+0.0.0.0         localhost
 ```
 
 As for source control, the structure is 
