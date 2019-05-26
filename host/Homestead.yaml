@@ -14,8 +14,8 @@ folders:
       to: /home/vagrant/sites
 
 sites:
-    - map: hellohs.test
-      to: /home/vagrant/sites/hellohs
+    - map: hellohs.local
+      to: /home/vagrant/sites/hellohs/webroot
 
 databases:
     - homestead
